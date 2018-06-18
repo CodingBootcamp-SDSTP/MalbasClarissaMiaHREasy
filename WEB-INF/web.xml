@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<web-app>
+	<display-name>HR Easy</display-name>
+	<description>HR Transactions</description>>
+	<servlet>
+		<servlet-name>HR Easy</servlet-name>
+		<servlet-class>MemorableAll</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HR Easy</servlet-name>
+		<url-pattern>/all</url-pattern>
+	</servlet-mapping>
+</web-app>
