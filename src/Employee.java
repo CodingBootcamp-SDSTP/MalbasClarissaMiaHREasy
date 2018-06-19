@@ -14,8 +14,8 @@ public class Employee
 	private String civilStatus;
 	private String address;
 
-	public Employee(int ID, String firstName, String middleName, String lastName, String emailAdd, LocalDate birthdate, String religion, String gender, int age, String civilStatus, String address) {
-		this.ID = ID;
+	public Employee(int id, String firstName, String middleName, String lastName, String emailAdd, LocalDate birthdate, String religion, String gender, int age, String civilStatus, String address) {
+		ID = id;
 		this.firstName = firstName;
 		this.middleName = middleName;
 		this.lastName = lastName;
@@ -28,8 +28,8 @@ public class Employee
 		this.address = address;
 	}
 
-	public int getId() {
-		return(ID);
+	public String getJobId() {
+		return(jobId);
 	}
 
 	public String getFirstName() {
