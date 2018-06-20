@@ -2,7 +2,8 @@ import java.util.Date;
 
 public class Employment
 {
-	private final String ID;
+	final int ID;
+	private int employeeAssign;
 	private int experience;
 	private String qualification;
 	private String skills;
@@ -12,8 +13,9 @@ public class Employment
 	private String department;
 	private String project;
 
-	public Employment(String id, int experience, String qualification, String skills, Date dateHired, String status, String designation, String department, String project) {
+	public Employment(String id, int employeeAssign, int experience, String qualification, String skills, Date dateHired, String status, String designation, String department, String project) {
 		ID = id;
+		this.employeeAssign = employeeAssign;
 		this.experience = experience;
 		this.qualification = qualification;
 		this.skills = skills;
